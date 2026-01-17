@@ -4,13 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="tailwind.css" />
     <title>Legal-Solutions</title>
   </head>
-  <body class="">
-    <header>
-      <nav class="text-5xl text-red-600 border mt-5 text-center">
-        i will do it as soon as posibble
+  <body class="mt-10">
+    <header class="lg:max-w-6xl m-auto">
+      <nav
+        class="flex flex-col justify-center items-center gap-6 lg:flex-row lg:justify-between"
+      >
+        <img src="images/logo2.png" alt="" class="" />
+        <ul
+          class="font-poppins flex flex-col justify-center items-center gap-4 lg:flex-row lg:justify-between text-[#707070]"
+        >
+          <li class=""><a href="" class="">Home</a></li>
+          <li class="flex justify-center items-center gap-2">
+            <a href="" class="">Services</a>
+            <img class="w-2 h-2" src="images/greater.png" alt="" />
+          </li>
+          <li class="flex justify-center items-center gap-2">
+            <a href="" class="">Cases</a>
+            <img class="w-2 h-2" src="images/greater.png" alt="" />
+          </li>
+          <li class="flex justify-center items-center gap-2">
+            <a href="" class="">Blog</a>
+            <img class="w-2 h-2" src="images/greater.png" alt="" />
+          </li>
+          <li class="flex justify-center items-center gap-2">
+            <a href="" class="">Contact US</a>
+            <img class="w-2 h-2" src="images/greater.png" alt="" />
+          </li>
+        </ul>
+        <button
+          class="font-poppins bg-[#B68C5A] px-7 py-5 text-white font-semibold rounded"
+        >
+          Free Consultation
+        </button>
       </nav>
+
+      <!-- Banner section -->
+      <div
+        class="bg-[url('images/banner.png')] bg-cover bg-center text-white mt-12 mb-32"
+      >
+        <div class="sm:max-w-[384px] lg:max-w-[692px] m-auto text-center">
+          <h1
+            class="font-ebg text-3xl lg:text-[4.5rem] lg:font-extrabold pt-[104px] pb-6"
+          >
+            We Provide Effective Legal Solutions
+          </h1>
+          <p class="font-poppins leading-[26px] pb-8">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <div class="pb-[104px]">
+            <input
+              type="text"
+              placeholder="Search your services"
+              class="bg-white text-black rounded w-[500px] p-4"
+            />
+            <button
+              class="font-poppins bg-[#B68C5A] px-10 py-4 text-white font-semibold rounded"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>
